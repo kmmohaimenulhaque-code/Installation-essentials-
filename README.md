@@ -12,11 +12,11 @@ On Ubuntu you don’t “hunt websites” for most coding tools — you install 
 
 👉 Download from Terminal (BEST way)
 
-sudo apt update
+    sudo apt update
 
 Python
 
-sudo apt install python3 python3-pip
+    sudo apt install python3 python3-pip
 
 
 📍Opencv is an externally managed environment. 
@@ -37,30 +37,30 @@ Use a virtual environment (clean + proper way):
 
 Step 1 — install venv support
 
-sudo apt install python3-venv
+    sudo apt install python3-venv
 
 ⸻
 
 Step 2 — create a project folder
 
-mkdir opencv_project
-cd opencv_project
+    mkdir opencv_project
+    cd opencv_project
 
 ⸻
 
 Step 3 — create virtual environment
 
-python3 -m venv venv
+    python3 -m venv venv
 
 ⸻
 
 Step 4 — activate it
 
-source venv/bin/activate
+    source venv/bin/activate
 
 You’ll see:
 
-(venv) username@ubuntu:~
+    (venv) username@ubuntu:~
 
 ⸻
 
@@ -96,15 +96,15 @@ global pip install	avoid
 
 Git
 
-sudo apt install git
+    sudo apt install git
 
 Build tools
 
-sudo apt install build-essential
+    sudo apt install build-essential
 
 Node.js
 
-sudo apt install nodejs npm
+    sudo apt install nodejs npm
 
 ⸻
 
@@ -112,7 +112,7 @@ sudo apt install nodejs npm
 
 Not from App Center — from pip:
 
-pip3 install opencv-python opencv-contrib-python
+    pip3 install opencv-python opencv-contrib-python
 
 ⸻
 
@@ -120,7 +120,7 @@ pip3 install opencv-python opencv-contrib-python
 
 Best way on Ubuntu:
 
-sudo snap install code --classic
+    sudo snap install code --classic
 
 OR App Center → search:
 
@@ -168,10 +168,10 @@ If it’s Python libraries:
 
 Run this and you’re basically fully set:
 
-sudo apt update
-sudo apt install python3 python3-pip git build-essential
-pip3 install opencv-python opencv-contrib-python
-sudo snap install code --classic
+    sudo apt update
+    sudo apt install python3 python3-pip git build-essential
+    pip3 install opencv-python opencv-contrib-python
+    sudo snap install code --classic
 
 ⸻
 
